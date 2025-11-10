@@ -1,0 +1,10 @@
+Sukurta Streamlit aplikacija „UAB Sveikata“, kuri generuoja savaitės mankštos planą.
+Naudojami du modeliai pasirinktinai:
+Gemma3:4B iš Ollama (modelis iš failo)
+Qwen3 14B iš OpenRouter (su API raktu)
+Vartotojas įveda: amžių, sveikatos problemas, laiką mankštai ir tikslą (numesti svorio arba priaugti raumenų).
+Programa sugeneruoja savaitinį mankštos režimą, prasidedantį žodžiais „UAB Sveikata agentas:“ ir pasibaigiantį fraze „Šis atsakymas sugeneruotas AI, ir nėra profesionali daktaro nuomonė.“
+Jei įvedami klausimai nesusiję su tema, agentas mandagiai atsisako atsakyti.
+Visi duomenys įvedami tik tinkamu formatu (skaičiai, pasirinkimai).
+Projektas turi tvarkingą struktūrą ir README su paleidimo aprašymu.
+Instrukcijos, failų pavadinimai ir projekto logika sukurti automatiškai agento pagalba.
